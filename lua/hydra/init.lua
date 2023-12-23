@@ -522,4 +522,9 @@ function Hydra:debug(...)
    end
 end
 
+if not vim.g.__hydra_notified then
+   vim.notify("nvim-island/hydra.nvim has migrated to nvimtools/hydra.nvim. This fork will be purged on 2024-03-01. Please migrate to the new org!", vim.log.levels.WARN)
+   vim.g.__hydra_notified = true
+end
+
 return Hydra

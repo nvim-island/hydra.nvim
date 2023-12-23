@@ -9,6 +9,10 @@
 </p>
 -->
 
+Per [issue #11](https://github.com/nvim-island/hydra.nvim/issues/11),
+nvim-island/hydra.nvim has found a new home at https://github.com/nvimtools/hydra.nvim.
+This fork will be removed on 2024-03-01, please migrate before then!
+
 This is the Neovim implementation of the famous [Emacs Hydra](https://github.com/abo-abo/hydra)
 package.
 
